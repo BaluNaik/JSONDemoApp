@@ -58,17 +58,73 @@
 		1A27109321C0E9A200C6D185 /* JSONDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				1A27109421C0E9A200C6D185 /* AppDelegate.h */,
-				1A27109521C0E9A200C6D185 /* AppDelegate.m */,
-				1A27109721C0E9A200C6D185 /* ViewController.h */,
-				1A27109821C0E9A200C6D185 /* ViewController.m */,
-				1A27109A21C0E9A200C6D185 /* Main.storyboard */,
-				1A27109D21C0E9A300C6D185 /* Assets.xcassets */,
+				1A2710B021C0F41F00C6D185 /* AppDelegate */,
+				1A2710AB21C0F2B200C6D185 /* Constant */,
+				1A2710AA21C0F26500C6D185 /* Network */,
+				1A2710AC21C0F2D000C6D185 /* Model */,
+				1A2710AD21C0F2F400C6D185 /* ViewController */,
+				1A2710AE21C0F34500C6D185 /* CustomViews */,
+				1A2710AF21C0F37500C6D185 /* Resources */,
 				1A27109F21C0E9A300C6D185 /* LaunchScreen.storyboard */,
 				1A2710A221C0E9A300C6D185 /* Info.plist */,
 				1A2710A321C0E9A300C6D185 /* main.m */,
 			);
 			path = JSONDemoApp;
+			sourceTree = "<group>";
+		};
+		1A2710AA21C0F26500C6D185 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1A2710AB21C0F2B200C6D185 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		1A2710AC21C0F2D000C6D185 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A2710AD21C0F2F400C6D185 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A27109821C0E9A200C6D185 /* ViewController.m */,
+				1A27109721C0E9A200C6D185 /* ViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1A2710AE21C0F34500C6D185 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1A2710AF21C0F37500C6D185 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A27109A21C0E9A200C6D185 /* Main.storyboard */,
+				1A27109D21C0E9A300C6D185 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A2710B021C0F41F00C6D185 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1A27109521C0E9A200C6D185 /* AppDelegate.m */,
+				1A27109421C0E9A200C6D185 /* AppDelegate.h */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
