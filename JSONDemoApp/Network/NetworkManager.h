@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface NetworkManager : NSObject
 
-@end
++ (NetworkManager *)sharedInstance;
 
-NS_ASSUME_NONNULL_END
+- (void)requestApiData:(NSString *)endPoint completionHandler:(void (^)(NSData *data, NSURLResponse *response, NSError *error))completionHandler;
+
+@end
