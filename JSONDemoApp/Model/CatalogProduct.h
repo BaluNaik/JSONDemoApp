@@ -1,5 +1,5 @@
 //
-//  Contants.h
+//  CatalogProduct.h
 //  JSONDemoApp
 //
 //  Created by Sania Zafar on 12/12/18.
@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString *const BASE_URL;
-extern NSString *const catalog;
-extern NSString *const PDP;
+NS_ASSUME_NONNULL_BEGIN
+
+@interface CatalogProduct : NSObject
+
+@end
+
+NS_ASSUME_NONNULL_END

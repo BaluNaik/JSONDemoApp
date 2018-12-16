@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CatalogCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="efL-qn-7fP">
+                        <rect key="frame" x="5" y="5" width="140" height="135"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="135" id="bgw-sj-tDu"/>
+                            <constraint firstAttribute="height" constant="135" id="mWV-mo-fLG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yl0-GS-gAQ">
+                        <rect key="frame" x="59.5" y="166" width="31" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="d40-5E-aEm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvy-L4-hCq">
+                        <rect key="frame" x="54" y="145" width="42" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="PWn-Bt-gTP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZw-J9-AH7">
+                        <rect key="frame" x="57.5" y="182" width="35.5" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="hBk-ST-8w0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Yl0-GS-gAQ" firstAttribute="centerX" secondItem="uvy-L4-hCq" secondAttribute="centerX" id="Krm-W1-gUb"/>
+                <constraint firstItem="Yl0-GS-gAQ" firstAttribute="top" secondItem="uvy-L4-hCq" secondAttribute="bottom" constant="1" id="PXd-ze-sK1"/>
+                <constraint firstItem="OZw-J9-AH7" firstAttribute="top" secondItem="Yl0-GS-gAQ" secondAttribute="bottom" constant="1" id="WM1-Ii-F3C"/>
+                <constraint firstItem="uvy-L4-hCq" firstAttribute="top" secondItem="efL-qn-7fP" secondAttribute="bottom" constant="5" id="amU-zm-T8b"/>
+                <constraint firstAttribute="trailing" secondItem="efL-qn-7fP" secondAttribute="trailing" constant="5" id="chd-Xo-0f1"/>
+                <constraint firstItem="OZw-J9-AH7" firstAttribute="centerX" secondItem="Yl0-GS-gAQ" secondAttribute="centerX" id="eEs-fl-QKJ"/>
+                <constraint firstItem="efL-qn-7fP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="fPa-Ty-nfU"/>
+                <constraint firstItem="uvy-L4-hCq" firstAttribute="centerX" secondItem="efL-qn-7fP" secondAttribute="centerX" id="k4o-ma-f6H"/>
+                <constraint firstItem="efL-qn-7fP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="vNs-g2-J4h"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <connections>
+                <outlet property="catalogProductBrand" destination="uvy-L4-hCq" id="GBn-F6-p9e"/>
+                <outlet property="catalogProductImage" destination="efL-qn-7fP" id="bff-vo-Fxa"/>
+                <outlet property="catalogProductName" destination="Yl0-GS-gAQ" id="9lH-ml-WTj"/>
+                <outlet property="catalogProductPrice" destination="OZw-J9-AH7" id="8ic-hW-hVu"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
