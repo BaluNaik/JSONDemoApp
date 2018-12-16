@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A08842721C6411B00E81604 /* CatalogCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A08842521C6411B00E81604 /* CatalogCollectionViewCell.m */; };
+		1A08842821C6411B00E81604 /* CatalogCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A08842621C6411B00E81604 /* CatalogCollectionViewCell.xib */; };
+		1A08842A21C64D5C00E81604 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A08842921C64D5C00E81604 /* Constants.m */; };
 		1A27109621C0E9A200C6D185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A27109521C0E9A200C6D185 /* AppDelegate.m */; };
 		1A27109921C0E9A200C6D185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A27109821C0E9A200C6D185 /* ViewController.m */; };
 		1A27109C21C0E9A200C6D185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A27109A21C0E9A200C6D185 /* Main.storyboard */; };
 		1A27109E21C0E9A300C6D185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A27109D21C0E9A300C6D185 /* Assets.xcassets */; };
 		1A2710A121C0E9A300C6D185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A27109F21C0E9A300C6D185 /* LaunchScreen.storyboard */; };
 		1A2710A421C0E9A300C6D185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2710A321C0E9A300C6D185 /* main.m */; };
+		1A2710B621C10B1400C6D185 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2710B421C10B1400C6D185 /* NetworkManager.m */; };
+		1A2710C121C14FCB00C6D185 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2710C021C14FCB00C6D185 /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A08842421C6411B00E81604 /* CatalogCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatalogCollectionViewCell.h; sourceTree = "<group>"; };
+		1A08842521C6411B00E81604 /* CatalogCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatalogCollectionViewCell.m; sourceTree = "<group>"; };
+		1A08842621C6411B00E81604 /* CatalogCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogCollectionViewCell.xib; sourceTree = "<group>"; };
+		1A08842921C64D5C00E81604 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		1A27109121C0E9A200C6D185 /* JSONDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A27109421C0E9A200C6D185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A27109521C0E9A200C6D185 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,11 @@
 		1A2710A021C0E9A300C6D185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A2710A221C0E9A300C6D185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A2710A321C0E9A300C6D185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A2710B421C10B1400C6D185 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		1A2710B521C10B1400C6D185 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		1A2710B821C1312300C6D185 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1A2710BF21C14FCB00C6D185 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		1A2710C021C14FCB00C6D185 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +72,82 @@
 		1A27109321C0E9A200C6D185 /* JSONDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				1A27109421C0E9A200C6D185 /* AppDelegate.h */,
-				1A27109521C0E9A200C6D185 /* AppDelegate.m */,
-				1A27109721C0E9A200C6D185 /* ViewController.h */,
-				1A27109821C0E9A200C6D185 /* ViewController.m */,
-				1A27109A21C0E9A200C6D185 /* Main.storyboard */,
-				1A27109D21C0E9A300C6D185 /* Assets.xcassets */,
+				1A2710B021C0F41F00C6D185 /* AppDelegate */,
+				1A2710AB21C0F2B200C6D185 /* Constant */,
+				1A2710AA21C0F26500C6D185 /* Network */,
+				1A2710AC21C0F2D000C6D185 /* Model */,
+				1A2710AD21C0F2F400C6D185 /* ViewController */,
+				1A2710AE21C0F34500C6D185 /* CustomViews */,
+				1A2710AF21C0F37500C6D185 /* Resources */,
 				1A27109F21C0E9A300C6D185 /* LaunchScreen.storyboard */,
 				1A2710A221C0E9A300C6D185 /* Info.plist */,
 				1A2710A321C0E9A300C6D185 /* main.m */,
 			);
 			path = JSONDemoApp;
+			sourceTree = "<group>";
+		};
+		1A2710AA21C0F26500C6D185 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1A2710B521C10B1400C6D185 /* NetworkManager.h */,
+				1A2710B421C10B1400C6D185 /* NetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1A2710AB21C0F2B200C6D185 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				1A2710B821C1312300C6D185 /* Constants.h */,
+				1A08842921C64D5C00E81604 /* Constants.m */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		1A2710AC21C0F2D000C6D185 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A2710BF21C14FCB00C6D185 /* Product.h */,
+				1A2710C021C14FCB00C6D185 /* Product.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A2710AD21C0F2F400C6D185 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A27109821C0E9A200C6D185 /* ViewController.m */,
+				1A27109721C0E9A200C6D185 /* ViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1A2710AE21C0F34500C6D185 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1A08842421C6411B00E81604 /* CatalogCollectionViewCell.h */,
+				1A08842521C6411B00E81604 /* CatalogCollectionViewCell.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1A2710AF21C0F37500C6D185 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A27109A21C0E9A200C6D185 /* Main.storyboard */,
+				1A08842621C6411B00E81604 /* CatalogCollectionViewCell.xib */,
+				1A27109D21C0E9A300C6D185 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A2710B021C0F41F00C6D185 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1A27109521C0E9A200C6D185 /* AppDelegate.m */,
+				1A27109421C0E9A200C6D185 /* AppDelegate.h */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +209,7 @@
 			files = (
 				1A2710A121C0E9A300C6D185 /* LaunchScreen.storyboard in Resources */,
 				1A27109E21C0E9A300C6D185 /* Assets.xcassets in Resources */,
+				1A08842821C6411B00E81604 /* CatalogCollectionViewCell.xib in Resources */,
 				1A27109C21C0E9A200C6D185 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +221,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2710B621C10B1400C6D185 /* NetworkManager.m in Sources */,
 				1A27109921C0E9A200C6D185 /* ViewController.m in Sources */,
 				1A2710A421C0E9A300C6D185 /* main.m in Sources */,
+				1A08842721C6411B00E81604 /* CatalogCollectionViewCell.m in Sources */,
+				1A2710C121C14FCB00C6D185 /* Product.m in Sources */,
+				1A08842A21C64D5C00E81604 /* Constants.m in Sources */,
 				1A27109621C0E9A200C6D185 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
