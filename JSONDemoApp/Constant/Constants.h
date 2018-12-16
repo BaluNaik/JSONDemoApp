@@ -8,6 +8,6 @@
 
 
 
-const NSString *BASE_URL = @"https://api.namshi.com/rose/u/";
-const NSString *catalog = @"men-shoes";
-const NSString *PDP = @"product/{sku}";
+const NSString *BASE_URL = @"BASE_URL";
+const NSString *catalog = @"Catalog_URL";
+const NSString *PDP = @"product_URL";
